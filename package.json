@@ -1,0 +1,19 @@
+{
+  "name": "leafletreact5mindemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms-aija/LeafletReact5minDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ms-aija/LeafletReact5minDemo/issues"
+  },
+  "homepage": "https://github.com/ms-aija/LeafletReact5minDemo#readme"
+}
