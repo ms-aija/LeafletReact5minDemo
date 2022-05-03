@@ -43,8 +43,9 @@
   border-radius: 5px;
 }
 
-/* .leaflet-container {
+/* --- (4) Leaflet container with map dimensions (other properties optional) --- */
+.leaflet-container {
   width: 350px;
   height: 350px;
   font-size: 10px;
-} */
+}
