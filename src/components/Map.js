@@ -1,7 +1,8 @@
-// --- (1) & (2): install and import ---
+// --- (1), (2) & (3): install and import ---
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import { Icon } from 'leaflet';
-// --- ----------------------------- ---
+import 'leaflet/dist/leaflet.css';
+// --- ---------------------------------- ---
 
 export function Map() {
   // Berlin coordinates
