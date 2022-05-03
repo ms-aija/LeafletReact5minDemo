@@ -13,11 +13,6 @@ To create a leaflet map in your own project:
 2. Import core components with `import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'` and `import { Icon } from 'leaflet'` (*see code in [Map.js](https://github.com/ms-aija/LeafletReact5minDemo/blob/master/src/components/Map.js#L2) component*).
 
 3. Add leaflet stylesheet to the component with `import 'leaflet/dist/leaflet.css'` (*see code in [Map.js](https://github.com/ms-aija/LeafletReact5minDemo/blob/master/src/components/Map.js#L4) component and [leaflet.js docs](https://leafletjs.com/examples/quick-start/)*).
-```
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
-  integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
-  crossorigin="" />
-```
 
 4. Add `.leaflet-container` class to css with map dimensions (other properties are optional). Note that the class **does not** have to be added anywhere in the Map component itself (*see code in [index.css](https://github.com/ms-aija/LeafletReact5minDemo/blob/master/src/index.css#L47)*).
 ```
@@ -74,5 +69,3 @@ and add `icon` property to `Marker` component (*see code in [Map.js](https://git
 ```
 ---
 *And watch [The Billion Dollar Code](https://www.imdb.com/title/tt15392100/) to learn about tiles with some entertainment value* 😉🙃
-
-
