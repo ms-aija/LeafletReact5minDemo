@@ -20,3 +20,6 @@
 (and watch [The Billion Dollar Code](https://www.imdb.com/title/tt15392100/) to learn about tiles with some entertainment value)
 
 
+-------------------------------
+
+To view the project in browser, move to client directory and run `npm start`.
