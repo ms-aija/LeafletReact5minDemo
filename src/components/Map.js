@@ -18,9 +18,8 @@ export function Map() {
 
   return (
     <section className='map-component' >
-      <div className='map' id='map' >
-
       {/* --- (5) Add leaflet map container --- */}
+      <div className='map' id='map' >
       <MapContainer center={position} zoom={6} scrollWheelZoom={true}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
