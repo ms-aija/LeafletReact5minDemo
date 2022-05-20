@@ -1,6 +1,10 @@
 ## Setting up a basic leaflets.js map in React
 ### View Project
-This demo project has been built with Create-React-App environment. To view it in browser
+This demo project has been built with Create-React-App environment.
+
+Check it out on [CodeSandbox](https://codesandbox.io/s/github/ms-aija/LeafletReact5minDemo).
+
+Or view it in your browser:
 * Fork and clone the repo
 * Run `npm install` from project root directory
 * Run `npm start` from project root directory
