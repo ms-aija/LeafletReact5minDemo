@@ -39,7 +39,7 @@ To create a leaflet map in your own project:
       </Popup>
     </Marker>
   </MapContainer>
-<div/>
+</div>
 ```
 
 Note, I have defined the [position](https://github.com/ms-aija/LeafletReact5minDemo/blob/master/src/components/Map.js#L9) as a variable inside the Map component but outside the `return` statement.
