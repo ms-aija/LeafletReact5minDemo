@@ -11,7 +11,7 @@ export function Map() {
   // --- (6) Create a custom marker ---
   const customIcon = new Icon({
     iconUrl: '/icons8-select-24.png',
-    iconSize: [33, 33],
+    iconSize: [20, 20],
     // iconAnchor: [1, 1],
     // popupAnchor: [-0, -76]
   })
@@ -19,7 +19,7 @@ export function Map() {
   return (
     <section className='map-component' >
       {/* --- (5) Add leaflet map container --- */}
-      <div className='map' id='map' >
+      <div className='map'>
       <MapContainer center={position} zoom={6} scrollWheelZoom={true}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

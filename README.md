@@ -28,10 +28,10 @@ To create a leaflet map in your own project:
 }
 ```
 
-5. Add `MapContainer` component inside a `div` with `id="map"` (*see code in [Map.js](https://github.com/ms-aija/LeafletReact5minDemo/blob/master/src/components/Map.js#L22) component and [react leaflet docs](https://react-leaflet.js.org/)*).
+5. Add a `MapContainer` component (*see code in [Map.js](https://github.com/ms-aija/LeafletReact5minDemo/blob/master/src/components/Map.js#L22) component and [react leaflet docs](https://react-leaflet.js.org/)*).
 
 ```jsx
- <div className="map" id="map" >
+ <div className="map">
   <MapContainer center={position} zoom={6} scrollWheelZoom={true}>
     <TileLayer
       attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -59,7 +59,7 @@ const position = [52.51, 13.38]
 ```js
 const customIcon = new Icon({
     iconUrl: "/icons8-select-24.png",
-    iconSize: [33, 33]
+    iconSize: [20, 20]
   })
 ```
 and add `icon` property to `Marker` component (*see code in [Map.js](https://github.com/ms-aija/LeafletReact5minDemo/blob/master/src/components/Map.js#L34) component*).
